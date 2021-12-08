@@ -15,19 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pva-cs-86y">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Pva-cs-86y">
                                 <rect key="frame" x="20" y="456" width="374" height="365"/>
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <view userInteractionEnabled="NO" contentMode="scaleAspectFit" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRc-SF-ZcW">
-                                <rect key="frame" x="20" y="60" width="374" height="361"/>
+                            <view userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DRc-SF-ZcW">
+                                <rect key="frame" x="20" y="62" width="374" height="360"/>
                                 <color key="backgroundColor" red="0.51500281112946467" green="0.89974529809170978" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="Pva-cs-86y" firstAttribute="top" secondItem="DRc-SF-ZcW" secondAttribute="bottom" constant="35" id="GQx-O3-fM8"/>
-                            <constraint firstItem="Pva-cs-86y" firstAttribute="top" secondItem="DRc-SF-ZcW" secondAttribute="bottom" constant="35" id="mE4-Wx-H6U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pva-cs-86y" secondAttribute="bottom" constant="41" id="496-Xl-xOg"/>
+                            <constraint firstItem="Pva-cs-86y" firstAttribute="top" secondItem="DRc-SF-ZcW" secondAttribute="bottom" constant="33" id="B6X-3U-Eh6"/>
+                            <constraint firstItem="Pva-cs-86y" firstAttribute="top" secondItem="DRc-SF-ZcW" secondAttribute="bottom" constant="33" id="CmA-Pi-AVg"/>
+                            <constraint firstItem="DRc-SF-ZcW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="18" id="POT-M0-lCV"/>
+                            <constraint firstItem="Pva-cs-86y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="duC-Cg-glf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Pva-cs-86y" secondAttribute="trailing" constant="20" id="oZF-48-bYK"/>
+                            <constraint firstItem="DRc-SF-ZcW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="uL9-HF-rYI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DRc-SF-ZcW" secondAttribute="trailing" constant="20" id="vCx-i2-mfn"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
